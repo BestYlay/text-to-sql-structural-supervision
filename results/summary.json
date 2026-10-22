@@ -1,0 +1,46 @@
+{
+  "main": {
+    "baseline": {
+      "n": 100,
+      "correct": 36,
+      "executable": 71
+    },
+    "D": {
+      "n": 100,
+      "correct": 42,
+      "executable": 68
+    },
+    "joint-constrained": {
+      "n": 100,
+      "correct": 44,
+      "executable": 75
+    },
+    "joint-constrained-repaired": {
+      "n": 100,
+      "correct": 44,
+      "executable": 77
+    }
+  },
+  "financial": {
+    "baseline": {
+      "n": 106,
+      "correct": 43,
+      "executable": 89
+    },
+    "D": {
+      "n": 106,
+      "correct": 30,
+      "executable": 87
+    },
+    "joint-constrained": {
+      "n": 106,
+      "correct": 31,
+      "executable": 90
+    },
+    "joint-constrained-repaired": {
+      "n": 106,
+      "correct": 33,
+      "executable": 95
+    }
+  }
+}

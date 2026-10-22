@@ -1,0 +1,10 @@
+{
+  "toy": {
+    "tables": {
+      "client": {"columns": {"client_id": "INTEGER", "name": "TEXT"}, "pk": ["client_id"]},
+      "account": {"columns": {"account_id": "INTEGER", "balance": "REAL"}, "pk": ["account_id"]},
+      "disp": {"columns": {"client_id": "INTEGER", "account_id": "INTEGER"}, "pk": []}
+    },
+    "foreign_keys": [["disp", "client_id", "client", "client_id"], ["disp", "account_id", "account", "account_id"]]
+  }
+}
